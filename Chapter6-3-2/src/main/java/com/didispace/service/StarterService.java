@@ -11,6 +11,7 @@ public class StarterService {
     
     public String[] split(String separatorChar) {
         return StringUtils.split(this.config, separatorChar);
+
     }
     
 }
